@@ -1,0 +1,345 @@
+@media (max-width: 711px) {
+
+                                 /* Оформление  хедера */
+
+    .container{
+        width: 320px;        /*  ширина  контейнера */
+        margin: 0 auto;           /* по  вертикали  ноль  по  ширине  авто  */
+       }
+
+    .slid{
+        display: block;
+        min-height: 540px;
+        background-image: url(../img/1.jpg);
+        background-size: cover;                              
+        background-position: center;                         
+        background-repeat: no-repeat;
+
+        margin-bottom: 68px;
+
+       }
+
+    .site-navigation{
+
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+
+    }
+
+   .pozition{
+
+       position: relative;
+
+   }
+
+    .site-logo{
+
+        position: absolute;
+        top: 170px;
+        left: 70px;
+    }
+
+    .hdva{
+
+        position: absolute;
+        top: 226px;
+        left: 60px;
+        font-size: 30px;                       /* выбираем  размер  для  шрифта */
+        line-height: 30px;                  /*  размер  строковой  линии  */
+
+    }
+
+    .hdva-od{
+        
+        position: absolute;
+        top: 263px;
+        left: 23px;
+        font-size: 30px;                       /* выбираем  размер  для  шрифта */
+        line-height: 30px;                  /*  размер  строковой  линии  */
+
+    }
+
+    .text{
+
+        position: absolute;
+        top: 306px;
+        left: 50px;
+        font-size: 18px;                       /* выбираем  размер  для  шрифта */
+        line-height: 21px;                  /*  размер  строковой  линии  */
+        width: 225px;
+
+    }
+
+    .site-knopka{
+       
+        position: absolute;
+        top: 362px;
+        left: 20px;
+
+    }
+   
+    .site-knopka a{
+        width: 280px;
+    }
+
+                                             /* Оформление  SECTION */
+
+     .features-list{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 14px;
+     }
+    
+     .features-list-item{
+        margin: 0 auto;
+        padding-bottom: 17px;
+     }
+      
+     .s1{
+        order: 1;
+    }
+    .s2{
+       order: 2;
+    }
+    .s3{
+       order: 3;
+   }
+   .s4{
+       order: 4;
+   }
+
+     .features{
+        padding-bottom: 57px;
+     }
+
+}
+
+@media (min-width: 712px) and (max-width: 981px){
+
+                               /* Оформление  хедера */
+
+    .container{
+        width: 672px;        /*  ширина  контейнера */
+        margin: 0 auto;           /* по  вертикали  ноль  по  ширине  авто  */
+       }
+
+       .slid{
+        display: block;
+        min-height: 700px;
+        background-image: url(../img/10.jpg);
+        background-size: cover;                              
+        background-position: center;                         
+        background-repeat: no-repeat;
+
+        margin-bottom: 72px;
+       }
+
+       .pozition{
+        position: relative;
+    }
+
+    .navg{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 38px;
+    }
+
+    .site-navigation{
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-logo{
+        line-height: 32px;                  /*  размер  строковой  линии  */
+    }
+
+    .hdva{
+        position: absolute;
+        top: 222px;
+        left: 160px;
+        font-size: 52px;                       /* выбираем  размер  для  шрифта */
+        line-height: 52px;                  /*  размер  строковой  линии  */
+    }
+
+    .hdva-od{  
+        position: absolute;
+        top: 285px;
+        left: 96px;
+        font-size: 52px;                       /* выбираем  размер  для  шрифта */
+        line-height: 52px;                  /*  размер  строковой  линии  */
+    }
+
+    .text{
+        position: absolute;
+        top: 369px;
+        left: 136px;
+        font-size: 24px;                       /* выбираем  размер  для  шрифта */
+        line-height: 24px;                  /*  размер  строковой  линии  */
+        width: 400px;
+    }
+
+    .site-knopka{ 
+        position: absolute;
+        top: 426px;
+        left: 222px;
+    }
+   
+    .site-knopka a{
+        width: 226px;
+    }
+
+                                                /* Оформление  SECTION */
+
+    .cont{
+        width: 472px;
+        margin: 0 auto;           /* по  вертикали  ноль  по  ширине  авто  */
+    }
+
+     .features-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        padding-top: 20px;
+     }
+
+     .s1{
+         order: 1;
+         padding-bottom: 46px;
+     }
+     .s2{
+        order: 3;
+        padding-bottom: 37px;
+     }
+     .s3{
+        order: 2;
+        padding-bottom: 46px;
+    }
+    .s4{
+        order: 4;
+        padding-bottom: 37px;
+    }
+
+    .sec-kno a{
+        width: 188px;
+    }
+
+    .features{
+        padding-bottom: 40px;
+    }
+  
+   
+}
+
+@media (min-width: 982px){
+
+                                           /* Оформление  хедера */
+
+    .container{
+        width: 940px;        /*  ширина  контейнера */
+        margin: 0 auto;           /* по  вертикали  ноль  по  ширине  авто  */
+       }
+
+       .slid{
+        display: block;
+        min-height: 700px;
+        background-image: url(../img/11.jpg);
+        background-size: cover;                              
+        background-position: center;                         
+        background-repeat: no-repeat;
+
+        margin-bottom: 69px;
+       }
+
+       .pozition{
+        position: relative;
+    }
+
+    .navg{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 38px;
+    }
+
+    .site-navigation{
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-logo{
+        line-height: 32px;                  /*  размер  строковой  линии  */
+    }
+
+    .hdva{
+        position: absolute;
+        top: 220px;
+        left: 297px;
+        font-size: 52px;                       /* выбираем  размер  для  шрифта */
+        line-height: 52px;                  /*  размер  строковой  линии  */
+    }
+
+    .hdva-od{  
+        position: absolute;
+        top: 283px;
+        left: 232px;
+        font-size: 52px;                       /* выбираем  размер  для  шрифта */
+        line-height: 52px;                  /*  размер  строковой  линии  */
+    }
+
+    .text{
+        position: absolute;
+        top: 367px;
+        left: 272px;
+        font-size: 24px;                       /* выбираем  размер  для  шрифта */
+        line-height: 24px;                  /*  размер  строковой  линии  */
+        width: 400px;
+    }
+
+    .site-knopka{ 
+        position: absolute;
+        top: 426px;
+        left: 360px;
+    }
+   
+    .site-knopka a{
+        width: 226px;
+    }
+
+                                                  /* Оформление  SECTION */
+
+    .cont{
+    width: 940px;
+    margin: 0 auto;           /* по  вертикали  ноль  по  ширине  авто  */
+     }
+
+    .features-list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding-top: 20px;
+     padding-bottom: 37px;
+    }
+    .s1{
+        order: 1;
+    }
+    .s2{
+       order: 3;
+    }
+    .s3{
+       order: 2;
+   }
+   .s4{
+       order: 4;
+   }
+
+   .sec-kno a{
+    width: 188px;
+     }
+
+     .features{
+        padding-bottom: 73px;
+    }
+
+}
+
